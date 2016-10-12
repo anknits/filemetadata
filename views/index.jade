@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+  head
+    title FileSize
+    script(type='text/javascript').
+  body
+  form(role="form", action="/", method="post", enctype="multipart/form-data")
+    h4 Select file using Browse. Upload using Submit
+    #container
+      input(
+      type='file' 
+      name='userFile'
+      )
+      input(
+      type='Submit' 
+      name='Submit'
+      text="Submit File"
+      )
